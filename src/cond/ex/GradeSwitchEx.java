@@ -3,7 +3,7 @@ package cond.ex;
 public class GradeSwitchEx {
 
     public static void main(String[] args) {
-        String grade = "D";
+        String grade = "A";
 
         String message = switch (grade) {
           case "A" -> "탁월한 성과입니다!";
