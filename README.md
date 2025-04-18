@@ -75,3 +75,8 @@ type variable = switch(condition) {
   case3 -> returnValue3;
   default -> defaultValue;
 ```
+
+## 변수의 스코프의 중요성
+
+* 비효율적인 메모리 사용 방지
+* 코드 복잡성 증가 예방
