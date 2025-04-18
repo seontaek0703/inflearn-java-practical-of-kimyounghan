@@ -66,3 +66,12 @@
   10. 대입 연산자 =, +=, -=, *=, /+, %= 등등
 > 1. 상식선에서의 우선순위 사용
 > 2. 애매모하면 괄호
+
+## new Switch
+```
+type variable = switch(condition) {
+  case1 -> returnValue1;
+  case2 -> returnValue2;
+  case3 -> returnValue3;
+  default -> defaultValue;
+```
