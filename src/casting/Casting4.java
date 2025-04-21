@@ -25,4 +25,4 @@ public class Casting4 {
 		System.out.println("result = " + result);
 		// 출력: 1.5
 	}
-]
+}
