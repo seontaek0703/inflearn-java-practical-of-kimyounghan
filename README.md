@@ -1,6 +1,6 @@
-# Inflearn - Java Practical of Kimyounghan
+# Inflearn - Java Practical of Kimyounghan(Roadmap)
 
-| 섹션명 | 주요 개념 | 상태
+| 섹션명 | 주요 개념 | 상태 |
 |---|---|---|
 | 강의 소개 | 인프런 강의 구성 이해 | ✅ 완료 |
 | Hello World | main(), 출력 System.out.println() | ✅ 완료 |
