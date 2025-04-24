@@ -8,10 +8,10 @@ public class ArrayEx6 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("입력받을 숫자의 개수를 입력하세요: ");
-        int input = sc.nextInt();
+        int n = sc.nextInt();
 
-        System.out.println(input + "개의 정수를 입력하세요.");
-        int[] numbers = new int[input];
+        System.out.println(n + "개의 정수를 입력하세요.");
+        int[] numbers = new int[n];
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = sc.nextInt();
         }
@@ -20,7 +20,7 @@ public class ArrayEx6 {
 
         minNumber = maxNumber = numbers[0];
 
-        for (int i = 1; i < input; i++) {
+        for (int i = 1; i < n; i++) {
             if (numbers[i] < minNumber) {
                 minNumber = numbers[i];
             }

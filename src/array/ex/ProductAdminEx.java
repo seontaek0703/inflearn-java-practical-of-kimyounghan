@@ -10,11 +10,12 @@ public class ProductAdminEx {
         int[] productPrices = new int[maxProducts];
         int productCount = 0;
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         while (true) {
-            System.out.print("1. 상품 등록 | 2. 상품 목록 | 3. 종료\n메뉴를 선택하세요:");
-            int menu = scanner.nextInt();
-            scanner.nextLine();
+            System.out.println("1. 상품 등록 | 2. 상품 목록 | 3. 종료");
+            System.out.print("메뉴를 선택하세요: ");
+            int menu = sc.nextInt();
+            sc.nextLine();
 
             if (menu == 1) {
 
@@ -24,10 +25,10 @@ public class ProductAdminEx {
                 }
 
                 System.out.print("상품 이름을 입력하세요:");
-                productNames[productCount] = scanner.nextLine();
+                productNames[productCount] = sc.nextLine();
 
                 System.out.print("상품 가격을 입력하세요:");
-                productPrices[productCount] = scanner.nextInt();
+                productPrices[productCount] = sc.nextInt();
 
                 productCount++;
             } else if (menu == 2) {
