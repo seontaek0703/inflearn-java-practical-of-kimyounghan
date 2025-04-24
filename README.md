@@ -1,5 +1,6 @@
 # Inflearn - Java Practical of Kimyounghan(Roadmap)
 
+## JAVA - start
 | 섹션명 | 주요 개념 | 상태 |
 |---|---|---|
 | 강의 소개 | 인프런 강의 구성 이해 | ✅ 완료 |
