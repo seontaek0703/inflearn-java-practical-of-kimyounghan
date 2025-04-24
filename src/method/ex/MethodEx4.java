@@ -21,21 +21,19 @@ public class MethodEx4 {
                 System.out.print("입금액을 입력하세요: ");
                 amount = sc.nextInt();
                 balance = deposit(balance, amount);
-                continue;
             } else if (menu == 2) {
                 System.out.print("출금액을 입력하세요: ");
                 amount = sc.nextInt();
                 balance = withdraw(balance, amount);
-                continue;
             } else if (menu == 3) {
                 System.out.println("현재 잔액: " + balance);
-                continue;
             } else if (menu == 4) {
                 System.out.println("프로그램을 종료합니다.");
                 break;
             } else {
                 System.out.println("유효한 메뉴 번호를 입력해주세요.");
             }
+            continue;
         }
     }
 
