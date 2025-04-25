@@ -1,4 +1,4 @@
-# Inflearn - Java Practical of Kimyounghan(Roadmap) - java start
+# Inflearn - Java Practical of Kimyounghan(Roadmap)
 
 ## JAVA - start
 | 섹션명 | 주요 개념 | 상태 |
