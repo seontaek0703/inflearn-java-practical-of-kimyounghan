@@ -42,3 +42,10 @@ public class DataMain {
 ```
 
 > Exception in thread "main" java.lang.NullPointerException: Cannot assign field "value" because "data" is null
+--- --- ---
+## 절차 vs 객채 지향 프로그래밍
+### 절차 지향 프로그래밍
+* 실행 순서를 중요하게 생각하며 '어떻게'가 중심이 되어 프로그래밍
+
+### 객체 지향 프로그래밍
+* 객체간 상호작용을 중요하게 생각하며 '무엇을'이 중심이 되어 프로그래밍
