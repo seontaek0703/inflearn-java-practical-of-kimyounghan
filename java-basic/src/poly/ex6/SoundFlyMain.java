@@ -13,6 +13,10 @@ public class SoundFlyMain {
         soundAnimal(dog);
         soundAnimal(bird);
         soundAnimal(chicken);
+
+        // flyAnimal(dog);
+        flyAnimal(bird);
+        flyAnimal(chicken);
     }
 
     // AbstractAnimal 사용 가능
@@ -23,5 +27,9 @@ public class SoundFlyMain {
     }
 
     // Fly 인터페이스 존재시 사용 가능
-    private static void flyAnimal() {
-        System.out.println("날기 테스트 시작"
+    private static void flyAnimal(Fly fly) {
+        System.out.println("날기 테스트 시작");
+        fly.fly();
+        System.out.println("날기 테스트 종료");
+    }
+}
