@@ -2,10 +2,14 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <mapping directory="" vcs="Git" />
 =======
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/java-start" vcs="Git" />
 >>>>>>> basic
+=======
+    <mapping directory="" vcs="Git" />
+>>>>>>> bac304732c127b3573e7ebf0c8cc4eb2c2130979
   </component>
 </project>
