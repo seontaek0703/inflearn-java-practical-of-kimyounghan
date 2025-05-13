@@ -1,37 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="82f45808-a077-4374-8995-d9d0d45e1e4a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="4b19e234-c81b-4434-8c1b-cc70f16a8825" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "seontaek0703"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/seontaek0703/inflearn-java-practical-of-kimyounghan.git",
-    "accountId": "1b2dd518-d7a2-49e5-822d-a56ef670e4da"
-  }
-}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  "customColor": "",
+  "associatedIndex": 7
 }]]></component>
-  <component name="ProjectId" id="2x20rnzwJ9qVaisLKdc6EfZkAKP" />
+  <component name="ProjectId" id="2x1Cs1v1viS2tBQ9coDB4th83XC" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -41,10 +24,6 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -60,12 +39,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="82f45808-a077-4374-8995-d9d0d45e1e4a" name="Changes" comment="" />
-      <created>1747121061678</created>
+      <changelist id="4b19e234-c81b-4434-8c1b-cc70f16a8825" name="Changes" comment="" />
+      <created>1747096395581</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1747121061678</updated>
-      <workItem from="1747121062759" duration="1371000" />
+      <updated>1747096395581</updated>
+      <workItem from="1747096396628" duration="74000" />
     </task>
     <servers />
   </component>
