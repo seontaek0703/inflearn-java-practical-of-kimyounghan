@@ -2,9 +2,9 @@ package lang.immutable.test;
 
 public class ImmutableMyDate {
 
-    private int year;
-    private int month;
-    private int day;
+    private final int year;
+    private final int month;
+    private final int day;
 
     public ImmutableMyDate(int year, int month, int day) {
         this.year = year;
@@ -12,16 +12,16 @@ public class ImmutableMyDate {
         this.day = day;
     }
 
-    public ImmutableMyDate setYear(int year) {
-        return new ImmutableMyDate(setYear().y);
+    public ImmutableMyDate withYear(int newYear) {
+        return new ImmutableMyDate(newYear, month, day);
     }
 
-    public void setMonth(int month) {
-        this.month = month;
+    public ImmutableMyDate withMonth(int newMonth) {
+        return new ImmutableMyDate(year, newMonth, day);
     }
 
-    public void setDay(int day) {
-        this.day = day;
+    public ImmutableMyDate withDay(int newDay) {
+        return new ImmutableMyDate(year, month, newDay);
     }
 
     @Override

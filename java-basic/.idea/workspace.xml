@@ -4,32 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD:java-start/.idea/workspace.xml
-    <list default="true" id="4b19e234-c81b-4434-8c1b-cc70f16a8825" name="Changes" comment="" />
-=======
-    <list default="true" id="0a9fd5b2-4ae3-4755-ad4f-c2a5a99670e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-basic/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="13abcbf9-3508-410c-9eb4-47ae2b355ed9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-basic/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-basic/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-basic/src/oop1/ex/RectangleProceduralMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-basic/src/oop1/ex/RectangleProceduralMain.java" afterDir="false" />
     </list>
->>>>>>> basic:.idea/workspace.xml
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-<<<<<<< HEAD:java-start/.idea/workspace.xml
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
-  <component name="ProjectId" id="2x1Cs1v1viS2tBQ9coDB4th83XC" />
-=======
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -49,7 +32,6 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2wCN4P9RFGKRGZj9fsPwMMCLqiY" />
->>>>>>> basic:.idea/workspace.xml
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -57,22 +39,9 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-<<<<<<< HEAD:java-start/.idea/workspace.xml
-=======
-    "last_opened_file_path": "C:/inflearn/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
->>>>>>> basic:.idea/workspace.xml
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -84,8 +53,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -96,16 +65,11 @@
       <created>1747096395581</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD:java-start/.idea/workspace.xml
-      <updated>1747096395581</updated>
-      <workItem from="1747096396628" duration="74000" />
-=======
       <updated>1745541405984</updated>
       <workItem from="1745541407360" duration="16000" />
       <workItem from="1745543751991" duration="159000" />
       <workItem from="1746081969148" duration="86000" />
       <workItem from="1746082628138" duration="247000" />
->>>>>>> basic:.idea/workspace.xml
     </task>
     <servers />
   </component>
