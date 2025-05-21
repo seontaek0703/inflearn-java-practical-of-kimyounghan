@@ -83,3 +83,83 @@ Object와 toString()이 없다면 관계가 없는 객체의 정보를 출력하
 ## String 클래스 - 기본
 * char
 * String
+
+> Java9부터 String 클래스의 변화
+> > 기존 문자열을 담던 char[] 대신에 byte[]가 역할을 대신하게 됨
+> > char는 기본적으로 2byte 메모리를 사용하기에 1 byte만 필요한 단순 영어와 숫자는 1 byte만 사용하고
+> > 이외에는 UTF-16 인코딩을 사용해 메모리 효율을 높이고자 함.
+
+### String 클래스의 기능(메서드)
+* length(): 문자열의 길이를 반환한다.
+* charAt(int index): 특정 인덱스의 문자를 반환한다. 
+* substring(int beginIndex, int endIndex): 문자열의 부분 문자열을 반환한다.
+* indexOf(String str): 특정 문자열이 시작되는 인덱스를 반환한다.
+* toLowerCase(), toUpperCase(): 문자열을 소문자 또는 대문자로 반환
+* trim(): 문자열 양 끝의 공백을 제거
+* concat(String str): 문자열을 더한다.
+
+### String 클래스 - 비교
+String 클래스를 비교할때는 == 연산자가 아닌 equals()를 비교해야 한다.
+* 동일성(Identify): == 연산자를 사용해 두 객체의 참조가 동일한 객체를 가리키고 있는지
+* 동등성(Equality): equals() 메서드를 사용해 두 객체가 논리적으로 같은지 확인
+
+#### 문자열 리터럴, 문자열 풀
+* String str3 = "hello"와 같이 문자열 리터럴을 사용하는 경우 자바는 메모리 효율성과 성능 최적화를 위해 문자열 풀을 사용한다.
+* 자바가 실행되는 시점에 클래스에 문자열 리터럴이 있으면 문자열 풀에 String 인스턴스를 미리 만들어둔다. 이때 같은 문자열이 있으면 만들지 않는다.
+* String str3 = "hello"와 같이 문자열 리터럴을 사용하면 문자열 풀에서 "hello"라는 문자를 가진 String 인스턴스를 찾는다. 그리고 찾은 인스턴스의 참조(x003:예시)를 반환한다.
+* String str4 = "hello"의 경우 "hello" 문자열을 리터럴을 사용하므로 문자열 풀에서 str3와 같은 x003:예시 참조를 사용한다.
+* 문자열 풀 덕분에 같은 문자를 사용하는 경우 메모리 사용을 줄이고 문자를 만든느 시간도 줄어들기 때문에 성능도 최적화 할 수 있다.
+
+### String 클래스 - 불변 객체
+#### String이 불변으로 설계된 이유
+문자열 풀에 있는 String 인스턴스의 값이 중간에 변경되면 같은 문자열을 참고하는 다른 변수의 값도 함께 변경된다.
+* String은 자바 내부에서 문자 풀을 통해 최적화 한다.
+* 만약 String 내부의 값을 변경할 수 있다면, 기존에 문자열 풀에서 같은 문자를 참조하는 변수의 모든 문자가 함께 변경되어 버리는 문제가 발생. str3이 참조하는 문자를 변경하면 str4의 문자도 함께 변경되는 사이드 이펙트 문제 발생.
+  + String str3 = "hello"
+  + String str4 = "hello"  
+
+**String** 클래스는 불변으로 설계되어서 이런 사이드 이펙트 문제가 발생하지 않는다.
+
+### String 클래스 - 주요 메서드1
+#### 문자열 정보 조회
+* length(): 문자열의 길이를 반환
+* isEmpty(): 문자열이 비어 있는지 확인한다. (길이가 0)
+* isBlank(): 문자열이 비어 있는지 확인한다. (길이가 0이거나 공백만 있는경우, JAVA11)
+* charAt(int index): 지정된 인덱스에 있는 문자를 반환.
+
+#### 문자열 비교
+* equals(Object anObject): 두 문자열이 동일한지 비교한다.
+* equalsIgnoreCase(String anotherString): 두 문자열을 대소문자 구분 없이 비교한다.
+* compareTo(String anotherString): 두 문자열을 사전 순으로 비교한다.
+* compareToIgnoreCase(String str): 두 문자열을 대소문자 구분 없이 사전적으로 비교한다.
+* startsWith(String prefix): 문자열이 특정 접두사로 시작하는지 확인한다.
+* endsWith(String suffix): 문자열이 특정 접미사로 끝나는지 확인한다.
+
+#### 문자열 검색
+* contains(CharSequence s): 문자열이 특정 문자열을 포함하고 있는지 확인한다.
+* indexOf(String ch) / indexOf(String ch, int fromIndex): 문자열이 처음 등장하는 위치를 반환한다.
+* lastIndexOf(String ch): 문자열이 마지막으로 등장하는 위치를 반환한다.
+
+#### 문자열 조작 및 변환
+* substring(int beginIndex) / substring(int beginIndex, int endIndex): 문자열의 부분 문자열을 반환한다.
+* concat(String str): 문자열의 끝에 다른 문자열을 붙인다.
+* replace(CharSequence target, CharSequence replacement): 특정 문자열을 새 문자열로 대체한다
+* replaceAll(String regex, String replacement): 문자열에서 정규 표현식과 일치하는 부분을 새 문자열로 대체한다
+* replaceFirst(String regex, String replacement): 문자열에서 정규 표현식과 일치하는 첫 번째 부분을 새 문자열로 대체
+* toLowerCase() / toUpperCase(): 문자열을 소문자나 대문자로 변환
+* trim(): 문자열 양쪽 끝의 공백에 제거. 단순 Whitespace만 제거
+* strip(): Witespace와 유니코드 공백을 포함해서 제거한다. (JAVA 11)
+
+#### 문자열 분할 및 조합
+* split(String regex): 문자열을 정규 표현식을 기준으로 분할
+* join(CharSequence delimiter, CharSequence... elements): 주어진 구분자로 여러 문자열을 결합한다
+
+#### 기타 유틸리티
+* valueOf(Object obj): 다양한 타입을 문자열로 변환
+* toCharArray(): 문자열을 문자 배열로 변환
+* format(String format, Object... args): 형식 문자열과 인자를 사용하여 새로운 문자열을 생성
+* matches(String regex): 문자열이 주어진 정규 표현식과 일치하는지 확인
+
+> 참고: CharSequence는 String, StringBuilder의 상위 타입이다. 문자열을 처리하는 다양한 객체를 받을 수 있다. StringBuilder는 뒤에서 설명한다.
+
+
