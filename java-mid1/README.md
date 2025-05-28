@@ -158,8 +158,35 @@ String 클래스를 비교할때는 == 연산자가 아닌 equals()를 비교해
 * valueOf(Object obj): 다양한 타입을 문자열로 변환
 * toCharArray(): 문자열을 문자 배열로 변환
 * format(String format, Object... args): 형식 문자열과 인자를 사용하여 새로운 문자열을 생성
+  + %d: 숫자
+  + %b: boolean
+  + %s: 문자열
 * matches(String regex): 문자열이 주어진 정규 표현식과 일치하는지 확인
 
 > 참고: CharSequence는 String, StringBuilder의 상위 타입이다. 문자열을 처리하는 다양한 객체를 받을 수 있다. StringBuilder는 뒤에서 설명한다.
+
+### StringBuilder - 가변 String
+String은 불변 클래스는 문자를 더하거나 변경할 때 마다 새로운 객체를 생성해야 한다는 점이다. 변경해야할 사항이 많은 상황이면 더 많은 String 객체를 생성하고 GC를 활용해야 한다.
+결과적으로 컴퓨터의 CPU, 메모리 자원을 더 많이 사용하게 된다. 그리고 문자열의 크기가 클수록, 더 자주 변경할수록 시스템 자원도 더 많이 소모한다.
+
+#### StringBuilder
+이런 문제를 해결키위해 StringBuilder라는 가변 String이 존재하나 사이드 이펙트에 주의해야 한다.
+
+* StringBuilder 객체 생성
+* append(): 여러 문자열 추가
+* insert(): 특정 위치에 문자열 삽입
+* delete(): 특정 범위의 문자열 삭제
+* reverse(): 문자열 뒤집기
+* 마지막에 toString()을 통해 String 객체를 생성 및 반환
+
+### String 최적화
+#### 자바의 String 최적화
+* 문자열 리터럴 최적화
+* String 변수 최적화  
+  + String result = new StringBuilder.append(str1).append(str2).toString();  
+  + 자바 9부터 StringConcatFactory를 사용할 수 있음
+
+> **StringBuilder vs StringBuffer**  
+> 둘은 똑같은 기능을 수행하나 StringBuffer는 내부에 동기화가 되어 있어, 멀티 스레드 상황에 안전하나 동기화 오버헤드로 인해 성능이 느린반면, Builder는 그와 반대되는 성격을 가짐.
 
 
