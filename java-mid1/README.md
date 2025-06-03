@@ -226,7 +226,7 @@ int, double과 같은 기본형 타입(Primitive Type)은 객체가 아니라서
 * Integer.valueOf()는 성능 최적화 기능이 있다. -128 ~ 127 범위 내에서 Integer 클래스를 미리 생성해줌. 벗어난 값에서 new Integer() 호출
   + String Pool과 비슷하게 자주 사용하는 숫자를 미리 생성해두고 재사용.
   + 미래에 개선된 방향으로 변경될 수도 있음
-* 래퍼 클래스는 객체 그대로 ㅜㄹ력해도 내부에 있는 값을 문자로 출력하도록 toString()을 재정의 함.
+* 래퍼 클래스는 객체 그대로 출력해도 내부에 있는 값을 문자로 출력하도록 toString()을 재정의 함.
 
 #### intValue() - 언박싱(Unboxing)
 * 래퍼 클래스에 들어있는 기본형을 다시 꺼내는 메서드
@@ -238,4 +238,11 @@ int, double과 같은 기본형 타입(Primitive Type)은 객체가 아니라서
 #### 오토박싱(Autoboxing)
 Primitive -> Wrapper 로 변경하거나 그 역의 상황을 사용하고자할 때 편하게하기 위해  
 자바 1.5부터 Autoboxing 혹은 Autounboxing을 컴파일러가 자동으로 지원해주는 기능
-  
+
+#### parseInt() vs valueOf()
+* valueOf("n"): 래퍼 타입 반환
+* parseInt("n"): 기본 타입 반환
+
+#### 유지보수 vs 최적화
+두 상황 중 우선순위를 고려할 상황이라면 유지보수에 더 중점을 두어야 한다.  
+
