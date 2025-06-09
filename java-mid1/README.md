@@ -314,7 +314,7 @@ Class를 사용하ㅏ면 클래스의 메타 정보를 기반으로 클래스에
   + 값의 제한 부족: 오타나 유효하지 않은 값의 입력 위험이 존재
   + 컴파일 오류 감지 불가: 사용하자 값을 입력하는 런타임 중에 오류가 발생해 디버깅에 불리할 수 있음
 
-## 타입 안전 열거형 패턴(Type-safe Enum Pattern)
+### 타입 안전 열거형 패턴(Type-safe Enum Pattern)
 Enum(Enumeration, 열거)
 
 #### 타입 안전 열거형 패턴의 장점
@@ -328,6 +328,14 @@ Enum(Enumeration, 열거)
 #### 단점
 패턴을 구현하기 위해 많은 코드를 작성해야하고 생성자를 private으로 외부 사용을 방지해야함.
 
-## 열거형 - Enum Type
+### 열거형 - Enum Type
 타입 안전 열거형 패턴을 매우 편리하게 사용할 수 있는 Enum Type을 제공  
+
+### 열거형 - 주요 메서드
+* values(): 모든 ENUM 상수를 포함한 배열 반환
+* valueOf(String name): 주어진 이름과 일치하는 ENUM 상수 반환
+* name(): ENUM 상수의 이름을 문자열로 반환
+* ordinal(): ENUM 상수의 선언 순서(0부터)를 반환
+* toString(): ENUM 상수의 이름을 문자열로 반환.
+
 
