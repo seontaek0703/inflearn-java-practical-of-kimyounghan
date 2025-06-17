@@ -330,7 +330,7 @@ Class를 사용하ㅏ면 클래스의 메타 정보를 기반으로 클래스에
   + 값의 제한 부족: 오타나 유효하지 않은 값의 입력 위험이 존재
   + 컴파일 오류 감지 불가: 사용하자 값을 입력하는 런타임 중에 오류가 발생해 디버깅에 불리할 수 있음
 
-## 타입 안전 열거형 패턴(Type-safe Enum Pattern)
+### 타입 안전 열거형 패턴(Type-safe Enum Pattern)
 Enum(Enumeration, 열거)
 
 #### 타입 안전 열거형 패턴의 장점
@@ -344,7 +344,83 @@ Enum(Enumeration, 열거)
 #### 단점
 패턴을 구현하기 위해 많은 코드를 작성해야하고 생성자를 private으로 외부 사용을 방지해야함.
 
-## 열거형 - Enum Type
+### 열거형 - Enum Type
 타입 안전 열거형 패턴을 매우 편리하게 사용할 수 있는 Enum Type을 제공  
 
+<<<<<<< HEAD
+>>>>>>> mid1
+=======
+### 열거형 - 주요 메서드
+* values(): 모든 ENUM 상수를 포함한 배열 반환
+* valueOf(String name): 주어진 이름과 일치하는 ENUM 상수 반환
+* name(): ENUM 상수의 이름을 문자열로 반환
+* ordinal(): ENUM 상수의 선언 순서(0부터)를 반환
+* toString(): ENUM 상수의 이름을 문자열로 반환.
+
+## 날짜와 시간 라이브러리가 필요한 이유
+### 1. 날짜와 시간 차이 계산
+### 2. 윤년 계산
+### 3. 일광 절약 시간(Daylight Saving Time, DST) 변환
+### 4. 타임존 계산
+#### 타임존 목록
+* Europe/London
+* GMT
+* UTC
+* US/Arizona -07:00
+* America/New Your -05:00
+* Asia/Seoul +09:00
+* Asia/Dubai +04:00
+* Asia/Istanbul +03:00
+* Asia/Shanghai +08:00
+* Europe/Paris +01:00
+* Europe/Berlin +01:00
+
+#### GTM, UTC
+London/ UTC/ GMT는 세계 시간의 기준이 되는 00:00 시간대이다.
+
+#### GMT(그리니치 평균시, Greenwich Mean Time)
+영국 런던의 그리니치 천문대를 기준.
+
+#### UTC(협정 세계시, Universal Time Coordinated)
+GMT와 동일하나. UTC는 원자 시계를 사용하여 측정, 국제적으로 합의된 시간 체계이다. GMT보다 더 정밀하다
+
+### 자바 날짜와 시간 라이브러리의 역사
+#### JDK1.0 (java.util.Data)
+#### JDK1.1 (java.util.Calendar)
+#### Joda-Time (오픈소스 라이브러리)
+#### JDK1.8 (java.time)
+
+#### LocalData, LocalTime, LocalDateTime
+* Date 날짜만 표현할 때 사용, 2025-06-10  
+* Time 시간만 표현할 때 사용, 11:44:30.233
+  + 밀리초, 나노초 단위 포함 가능
+* DateTime: Date + Time, 2025-06-10T11:44:30.233
+
+#### ZonedDateTime, OffsetDateTime
+* Zoned, 2025-06-10T11:44:30.233+9:00[Asia/Seoul]
+  + 타임존 구분에 따라 DST 적용 가능
+* Offset, 2025-06-10T11:44:30.233+9:00
+  + 타임존 지원 부재에 따라 DST 적용 불가
+
+#### Year, Month, YearMonth, MonthDay
+년, 월, 년월, 월일을 다룰 때 사용  
+DayOfWeek와 같이 요일을 나타내는 클래스도 존재
+
+#### Instant
+UTC를 기준으로 하는 시간의 한 지점  
+1970년 1월 1일 0시 0분 0초를 기준으로 경과한 시간 계산
+
+### Period, Duration
+* 특정 시점의 시간(시각), 년월일
+  + 마감 기한, 행사 시간, 생일 등
+* 시간의 간격(기간), 시분초
+  + 프로젝트 기간, 목표 기간, 조리 시간 등
+
+#### ZonedDateTime vs OffsetDateTime
+* ZDT는 구체적인 지역 시간대를 다룰 때 사용함, DST를 자동으로 처리할 수 있음, 사용자 지정 시간대에 따른 시간 계산에 적합함
+* ODT는 UTC와의 시간 차이만을 나타낼 때 사용, 지역 시간대 복잡성을 고려하지 않음, 시간대 변환 없이 로그 기록하고, 데이터 저장 및 처리에 적합함
+
+### 기계 중심의 시간 - Instant
+Epoch Time or Unix timestamp 컴퓨터 시스템에서 시간을 나타내는 방법 중 하나.  
+1970년 1월 1일 0시 0분 0초 UTC부터 현재까지 경과된 시간을 초 단위로 표현.
 >>>>>>> mid1
