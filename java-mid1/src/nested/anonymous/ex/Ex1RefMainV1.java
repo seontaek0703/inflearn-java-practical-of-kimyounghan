@@ -2,7 +2,7 @@ package nested.anonymous.ex;
 
 import java.util.Random;
 
-public class Ex1RefMain {
+public class Ex1RefMainV1 {
 
     public static void hello(Process process) {
         System.out.println("프로그램 시작");
