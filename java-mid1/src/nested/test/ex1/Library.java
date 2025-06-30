@@ -12,6 +12,16 @@ public class Library {
     }
 
     public void addBook(String title, String author) {
+
+        // 검증 로직 처리 후
+        /*if (bookCount >= books.length) {
+            System.out.println("도서관 저장 공간이 부족합니다.");
+            return
+        }*/
+
+        // 정상 로직 처리
+        /*books[bookCount++] = new Book(title, author);*/
+
         if (bookCount < books.length) {
             books[bookCount++] = new Book(title, author);
         } else {
@@ -26,6 +36,7 @@ public class Library {
         }
     }
 
+    // 책 만들기
     public static class Book {
         private String title;
         private String author;
