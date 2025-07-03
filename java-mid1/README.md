@@ -513,4 +513,12 @@ Epoch Time or Unix timestamp 컴퓨터 시스템에서 시간을 나타내는 �
 * 체크 예외: 잡아서 처리하지 않으면 항상 throws를 사용해 던져야 함.
 * 언체크 예외: 잡아서 처리하지 않아도 throws 키워드 생략 가능
 
+## 예외 처리 - finally
+자바는 어떤 경우라도 반드시 호출되는 finally 기능을 제공
+* try ~ catch ~ finally, 정상 흐름 ~ 예외 흐름 ~ 마무리 흐름
+* try를 시작하기만 하면 finally 코드 블럭은 어떤 경우라도 반드시 호출
+* try, catch 내에 잡을 수 없는 예외가 발생해도 finally는 반드시 호출
+
+try에서 사용한 자원을 해제할 때 주로 사용
+
 
