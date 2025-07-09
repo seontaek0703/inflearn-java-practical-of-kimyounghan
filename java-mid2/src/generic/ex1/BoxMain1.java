@@ -9,7 +9,7 @@ public class BoxMain1 {
         System.out.println("integer = " + integer);
 
         StringBox stringBox = new StringBox();
-        stringBox.set("String");
+        stringBox.set("hello");
         String string = stringBox.get();
         System.out.println("string = " + string);
     }
