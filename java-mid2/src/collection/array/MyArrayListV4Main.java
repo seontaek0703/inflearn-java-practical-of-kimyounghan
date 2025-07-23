@@ -1,6 +1,6 @@
 package collection.array;
 
-public class MyArrayList4Main {
+public class MyArrayListV4Main {
 
     public static void main(String[] args) {
         MyArrayListV4<String> stringList = new MyArrayListV4<>();
