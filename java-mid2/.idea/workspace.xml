@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1604b76f-7d68-407c-b116-c2d31602e718" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex1/ListEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex2/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex2/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex2/ShoppingCartMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/list/test/ex1/ListEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/list/test/ex1/ListEx2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2zUqo6k0nPsKCRedX4bp9j2my3w" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BoxMain1.executor": "Run",
+    "Application.Change.executor": "Run",
+    "Application.ListEx2.executor": "Run",
+    "Application.ListEx3.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Sample.executor": "Run",
+    "Application.ShoppingCartMain.executor": "Run",
+    "Application.Test.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "mid2",
+    "last_opened_file_path": "C:/gather-mind/back",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/inflearn/java/java-mid2/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="collection.list.test.ex2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ShoppingCartMain">
+    <configuration name="ListEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.list.test.ex1.ListEx2" />
+      <module name="java-mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.list.test.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.list.test.ex1.ListEx3" />
+      <module name="java-mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.list.test.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programers.Sample" />
+      <module name="java-mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.list.test.ex2.ShoppingCartMain" />
+      <module name="java-mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.list.test.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programers.Test" />
+      <module name="java-mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ShoppingCartMain" />
+        <item itemvalue="Application.ListEx3" />
+        <item itemvalue="Application.ListEx2" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Sample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1604b76f-7d68-407c-b116-c2d31602e718" name="Changes" comment="" />
+      <created>1751796173642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751796173642</updated>
+      <workItem from="1751796174706" duration="4471000" />
+      <workItem from="1751808790941" duration="37000" />
+      <workItem from="1752287902511" duration="153000" />
+      <workItem from="1752497823941" duration="3185000" />
+      <workItem from="1753280476231" duration="1834000" />
+      <workItem from="1753764001914" duration="58000" />
+      <workItem from="1753764123182" duration="3936000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
