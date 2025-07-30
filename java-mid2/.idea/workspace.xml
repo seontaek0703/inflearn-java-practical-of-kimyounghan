@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1604b76f-7d68-407c-b116-c2d31602e718" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/set/HashStart1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/HashStart2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/HashStart3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/HashStart4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/HashStart5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV0Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV1Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RAEDME.md" beforeDir="false" afterPath="$PROJECT_DIR$/RAEDME.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +44,7 @@
     "Application.ListEx3.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MyHashSetV0Main.executor": "Run",
+    "Application.MyHashSetV1Main.executor": "Run",
     "Application.Sample.executor": "Run",
     "Application.ShoppingCartMain.executor": "Run",
     "Application.Test.executor": "Run",
@@ -75,20 +70,7 @@
       <recent name="collection.set" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashStart5">
-    <configuration name="HashStart1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.HashStart1" />
-      <module name="java-mid2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyHashSetV1Main">
     <configuration name="HashStart2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.set.HashStart2" />
       <module name="java-mid2" />
@@ -141,13 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyHashSetV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.MyHashSetV1Main" />
+      <module name="java-mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyHashSetV1Main" />
         <item itemvalue="Application.HashStart5" />
         <item itemvalue="Application.HashStart4" />
         <item itemvalue="Application.HashStart3" />
         <item itemvalue="Application.HashStart2" />
-        <item itemvalue="Application.HashStart1" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +169,8 @@
       <workItem from="1753764001914" duration="58000" />
       <workItem from="1753764123182" duration="3936000" />
       <workItem from="1753780626563" duration="3712000" />
-      <workItem from="1753796811954" duration="4113000" />
+      <workItem from="1753796811954" duration="4194000" />
+      <workItem from="1753840579662" duration="2939000" />
     </task>
     <servers />
   </component>
