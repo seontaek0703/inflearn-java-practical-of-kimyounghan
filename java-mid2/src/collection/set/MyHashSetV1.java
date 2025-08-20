@@ -28,11 +28,7 @@ public class MyHashSetV1 {
         }
     }
 
-<<<<<<< HEAD
-    public boolean add (int value) {
-=======
     public boolean add(int value) {
->>>>>>> 873d7f27b76509ef2638d39176ee99d42eeb9b39
         int hashIndex = hashIndex(value);
         LinkedList<Integer> bucket = buckets[hashIndex];
         if (bucket.contains(value)) {
@@ -74,10 +70,6 @@ public class MyHashSetV1 {
         return "MyHashSetV1{" +
                 "buckets=" + Arrays.toString(buckets) +
                 ", size=" + size +
-<<<<<<< HEAD
-                ", capacity=" + capacity +
-=======
->>>>>>> 873d7f27b76509ef2638d39176ee99d42eeb9b39
                 '}';
     }
 }
