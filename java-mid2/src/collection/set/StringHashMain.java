@@ -26,7 +26,7 @@ public class StringHashMain {
         char[] charArray = string.toCharArray();
         int sum = 0;
         for (char c : charArray) {
-            sum += (int)c;
+            sum += (int) c;
         }
         return sum;
     }
