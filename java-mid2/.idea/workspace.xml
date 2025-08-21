@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080d9756-8d08-4402-86c8-672f737ab1a0" name="Changes" comment="" />
+    <list default="true" id="080d9756-8d08-4402-86c8-672f737ab1a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV3Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/MySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/member/HashAndEqualsMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/member/HashAndEqualsMain3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAEDME.md" beforeDir="false" afterPath="$PROJECT_DIR$/RAEDME.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,9 +57,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HashAndEqualsMain1.executor": "Run",
+    "Application.HashAndEqualsMain2.executor": "Run",
+    "Application.HashAndEqualsMain3.executor": "Run",
     "Application.JavaHashCodeMain.executor": "Run",
     "Application.MyHashSetV2Main1.executor": "Run",
     "Application.MyHashSetV2Main2.executor": "Run",
+    "Application.MyHashSetV3Main.executor": "Run",
     "Application.StringHashMain.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "mid2",
@@ -67,11 +80,25 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="collection.set" />
+      <recent name="collection.set.member" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashAndEqualsMain1">
+  <component name="RunManager" selected="Application.MyHashSetV3Main">
     <configuration name="HashAndEqualsMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.set.member.HashAndEqualsMain1" />
+      <module name="java-mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.set.member.MemberOnlyHash" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashAndEqualsMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.member.HashAndEqualsMain2" />
       <module name="java-mid2" />
       <extension name="coverage">
         <pattern>
@@ -83,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaHashCodeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.JavaHashCodeMain" />
+    <configuration name="HashAndEqualsMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.member.HashAndEqualsMain3" />
       <module name="java-mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyHashSetV2Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.MyHashSetV2Main1" />
-      <module name="java-mid2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.set.*" />
+          <option name="PATTERN" value="collection.set.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringHashMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.StringHashMain" />
+    <configuration name="MyHashSetV3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.MyHashSetV3Main" />
       <module name="java-mid2" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyHashSetV3Main" />
+        <item itemvalue="Application.HashAndEqualsMain3" />
+        <item itemvalue="Application.HashAndEqualsMain2" />
         <item itemvalue="Application.HashAndEqualsMain1" />
         <item itemvalue="Application.MyHashSetV2Main2" />
-        <item itemvalue="Application.MyHashSetV2Main1" />
-        <item itemvalue="Application.JavaHashCodeMain" />
-        <item itemvalue="Application.StringHashMain" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +188,7 @@
       <workItem from="1753885181189" duration="4010000" />
       <workItem from="1754022112366" duration="2323000" />
       <workItem from="1755672315823" duration="4492000" />
+      <workItem from="1755735282922" duration="4739000" />
     </task>
     <servers />
   </component>
