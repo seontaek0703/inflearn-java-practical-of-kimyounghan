@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="080d9756-8d08-4402-86c8-672f737ab1a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/collection/set/StringHashMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/member/HashAndEqualsMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/member/MemberNoHashNoEq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/member/MemberOnlyHash.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/set/JavaHashCodeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/JavaHashCodeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/set/MyHashSetV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/set/MyHashSetV1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV1Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/set/StringHashMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/set/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/member/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,11 @@
     &quot;accountId&quot;: &quot;1b2dd518-d7a2-49e5-822d-a56ef670e4da&quot;
   }
 }</component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -47,8 +53,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HashAndEqualsMain1.executor": "Run",
     "Application.JavaHashCodeMain.executor": "Run",
-    "git-widget-placeholder": "mid2"
+    "Application.MyHashSetV2Main1.executor": "Run",
+    "Application.MyHashSetV2Main2.executor": "Run",
+    "Application.StringHashMain.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "mid2",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,26 +76,13 @@
       <recent name="collection.set" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaHashCodeMain">
-    <configuration name="HashStart4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.HashStart4" />
+  <component name="RunManager" selected="Application.HashAndEqualsMain1">
+    <configuration name="HashAndEqualsMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.member.HashAndEqualsMain1" />
       <module name="java-mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashStart5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.HashStart5" />
-      <module name="java-mid2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.set.*" />
+          <option name="PATTERN" value="collection.set.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,8 +103,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHashSetV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.MyHashSetV1Main" />
+    <configuration name="MyHashSetV2Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.MyHashSetV2Main1" />
+      <module name="java-mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHashSetV2Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.MyHashSetV2Main2" />
       <module name="java-mid2" />
       <extension name="coverage">
         <pattern>
@@ -127,18 +144,26 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashAndEqualsMain1" />
+        <item itemvalue="Application.MyHashSetV2Main2" />
+        <item itemvalue="Application.MyHashSetV2Main1" />
         <item itemvalue="Application.JavaHashCodeMain" />
         <item itemvalue="Application.StringHashMain" />
-        <item itemvalue="Application.MyHashSetV1Main" />
-        <item itemvalue="Application.HashStart5" />
-        <item itemvalue="Application.HashStart4" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1604b76f-7d68-407c-b116-c2d31602e718" name="Changes" comment="" />
+      <changelist id="080d9756-8d08-4402-86c8-672f737ab1a0" name="Changes" comment="" />
       <created>1751796173642</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -155,6 +180,7 @@
       <workItem from="1753840579662" duration="3391000" />
       <workItem from="1753885181189" duration="4010000" />
       <workItem from="1754022112366" duration="2323000" />
+      <workItem from="1755672315823" duration="4175000" />
     </task>
     <servers />
   </component>
