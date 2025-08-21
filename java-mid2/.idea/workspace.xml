@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080d9756-8d08-4402-86c8-672f737ab1a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/set/StringHashMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/member/HashAndEqualsMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/member/MemberNoHashNoEq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/member/MemberOnlyHash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/set/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/member/Member.java" afterDir="false" />
-    </list>
+    <list default="true" id="080d9756-8d08-4402-86c8-672f737ab1a0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +173,7 @@
       <workItem from="1753840579662" duration="3391000" />
       <workItem from="1753885181189" duration="4010000" />
       <workItem from="1754022112366" duration="2323000" />
-      <workItem from="1755672315823" duration="4175000" />
+      <workItem from="1755672315823" duration="4492000" />
     </task>
     <servers />
   </component>
